@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlideViewController" customModule="Hercircle" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNext" destination="KSF-d5-P2k" id="LGT-Fa-erM"/>
+                <outlet property="lblDescription" destination="4ej-5G-l5e" id="GHN-hK-k0A"/>
+                <outlet property="lblSubTitle" destination="Z7Y-AC-QJO" id="hLH-hx-GwH"/>
+                <outlet property="lblTitle" destination="16m-H0-3pq" id="hsq-k4-cSu"/>
+                <outlet property="pageController" destination="t7g-Hj-TXw" id="Ctf-d1-FV0"/>
+                <outlet property="pageView" destination="B12-3t-bbB" id="yn1-vE-gii"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wNq-y0-cjw">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EoN-LC-HV9">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3Q-Fh-UAP">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="diet &amp; fitness goals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16m-H0-3pq">
+                                            <rect key="frame" x="100" y="8" width="214" height="62.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="26"/>
+                                            <color key="textColor" red="0.49405819179999999" green="0.65239578490000005" blue="0.47840249540000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B12-3t-bbB" customClass="FSPagerView" customModule="FSPagerView">
+                                            <rect key="frame" x="0.0" y="80.5" width="414" height="300"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="300" id="pj1-4z-vrl"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be fitted at your pace. At any page" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7Y-AC-QJO">
+                                            <rect key="frame" x="10" y="430.5" width="394" height="22"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="With us running shoulder to swaety shoulder with you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ej-5G-l5e">
+                                            <rect key="frame" x="20" y="462.5" width="374" height="43.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSF-d5-P2k">
+                                            <rect key="frame" x="20" y="770" width="374" height="40"/>
+                                            <color key="backgroundColor" red="0.49405819179999999" green="0.65239578490000005" blue="0.47840249540000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="PVS-34-FKA"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <state key="normal" title="Let's get you started">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onTapLetGetYouStartAction:" destination="-1" eventType="touchUpInside" id="zcS-f7-u0J"/>
+                                            </connections>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7g-Hj-TXw" customClass="FSPageControl" customModule="FSPagerView">
+                                            <rect key="frame" x="20" y="380.5" width="374" height="30"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="wES-mO-8wN"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="16m-H0-3pq" firstAttribute="top" secondItem="U3Q-Fh-UAP" secondAttribute="top" constant="8" id="5M8-Wr-po3"/>
+                                        <constraint firstAttribute="trailing" secondItem="B12-3t-bbB" secondAttribute="trailing" id="6qd-QC-5no"/>
+                                        <constraint firstItem="4ej-5G-l5e" firstAttribute="top" secondItem="Z7Y-AC-QJO" secondAttribute="bottom" constant="10" id="7rs-3F-MF7"/>
+                                        <constraint firstAttribute="trailing" secondItem="t7g-Hj-TXw" secondAttribute="trailing" constant="20" id="C2E-0b-b15"/>
+                                        <constraint firstItem="Z7Y-AC-QJO" firstAttribute="leading" secondItem="U3Q-Fh-UAP" secondAttribute="leading" constant="10" id="Clx-eg-pwB"/>
+                                        <constraint firstAttribute="trailing" secondItem="KSF-d5-P2k" secondAttribute="trailing" constant="20" id="H4K-eI-D9y"/>
+                                        <constraint firstItem="16m-H0-3pq" firstAttribute="leading" secondItem="U3Q-Fh-UAP" secondAttribute="leading" constant="100" id="IKs-bX-wii"/>
+                                        <constraint firstItem="KSF-d5-P2k" firstAttribute="leading" secondItem="U3Q-Fh-UAP" secondAttribute="leading" constant="20" id="J3m-dM-mPG"/>
+                                        <constraint firstAttribute="trailing" secondItem="Z7Y-AC-QJO" secondAttribute="trailing" constant="10" id="KKE-9O-s8X"/>
+                                        <constraint firstAttribute="bottom" secondItem="KSF-d5-P2k" secondAttribute="bottom" constant="8" id="KSi-tY-TTa"/>
+                                        <constraint firstItem="B12-3t-bbB" firstAttribute="top" secondItem="16m-H0-3pq" secondAttribute="bottom" constant="10" id="McB-8L-kBS"/>
+                                        <constraint firstItem="4ej-5G-l5e" firstAttribute="leading" secondItem="U3Q-Fh-UAP" secondAttribute="leading" constant="20" id="Otn-ak-UOD"/>
+                                        <constraint firstItem="B12-3t-bbB" firstAttribute="leading" secondItem="U3Q-Fh-UAP" secondAttribute="leading" id="Qfl-P3-okl"/>
+                                        <constraint firstItem="Z7Y-AC-QJO" firstAttribute="top" secondItem="t7g-Hj-TXw" secondAttribute="bottom" constant="20" id="U1c-jo-og0"/>
+                                        <constraint firstItem="t7g-Hj-TXw" firstAttribute="top" secondItem="B12-3t-bbB" secondAttribute="bottom" id="Zlw-Iw-XZ6"/>
+                                        <constraint firstItem="KSF-d5-P2k" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4ej-5G-l5e" secondAttribute="bottom" constant="20" id="a6C-7k-Sv8"/>
+                                        <constraint firstAttribute="trailing" secondItem="4ej-5G-l5e" secondAttribute="trailing" constant="20" id="as2-wA-LSZ"/>
+                                        <constraint firstItem="t7g-Hj-TXw" firstAttribute="leading" secondItem="U3Q-Fh-UAP" secondAttribute="leading" constant="20" id="gZI-7s-eRX"/>
+                                        <constraint firstAttribute="trailing" secondItem="16m-H0-3pq" secondAttribute="trailing" constant="100" id="oTy-X2-bVc"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="U3Q-Fh-UAP" firstAttribute="leading" secondItem="EoN-LC-HV9" secondAttribute="leading" id="D6R-No-ymB"/>
+                                <constraint firstItem="U3Q-Fh-UAP" firstAttribute="top" secondItem="EoN-LC-HV9" secondAttribute="top" id="GUM-wu-kYU"/>
+                                <constraint firstAttribute="bottom" secondItem="U3Q-Fh-UAP" secondAttribute="bottom" id="PyJ-KJ-nYf"/>
+                                <constraint firstAttribute="trailing" secondItem="U3Q-Fh-UAP" secondAttribute="trailing" id="RPA-3q-K3a"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="EoN-LC-HV9" firstAttribute="leading" secondItem="wNq-y0-cjw" secondAttribute="leading" id="SBt-fX-UZ9"/>
+                        <constraint firstAttribute="bottom" secondItem="EoN-LC-HV9" secondAttribute="bottom" id="lLt-Xc-Uug"/>
+                        <constraint firstItem="EoN-LC-HV9" firstAttribute="top" secondItem="wNq-y0-cjw" secondAttribute="top" id="uo6-vF-9be"/>
+                        <constraint firstAttribute="trailing" secondItem="EoN-LC-HV9" secondAttribute="trailing" id="zp2-BG-0FX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="wNq-y0-cjw" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="2i4-k9-iq6"/>
+                <constraint firstItem="wNq-y0-cjw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5BT-pB-84G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="wNq-y0-cjw" secondAttribute="bottom" id="cPC-UO-TvW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wNq-y0-cjw" secondAttribute="trailing" id="kF2-6l-Tnq"/>
+            </constraints>
+            <point key="canvasLocation" x="-17" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

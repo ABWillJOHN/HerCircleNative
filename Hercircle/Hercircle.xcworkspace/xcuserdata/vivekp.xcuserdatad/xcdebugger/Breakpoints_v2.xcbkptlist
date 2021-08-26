@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3AA8550D-3D59-4C64-BD5A-BB299C57149C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15D41603-AC70-4A4A-9E2B-92F36C19B744"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/DetailsRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "usernameSuggestion(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5528570-4C48-4686-9F64-E34D42A89A43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/DetailsRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "usernameSuggestion(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62A75655-8A49-4075-A462-C8336C48272F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/DetailsRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "usernameSuggestion(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FA62427-F4B9-45A5-8A1D-A11A993E6362"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BAF6B14-C84B-41CB-8496-3A7F7735C6F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCE395FF-587C-4302-B2F4-680F73768AF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB4E87FF-FC28-4225-A179-E31C48C34916"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "224DFCC2-7EDF-4473-A9C9-3A1717C24506"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B21A1510-94F7-4D68-81E2-9278D80B2E49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6B4C931-F39F-41AA-90AA-352B320603CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6B4C931-F39F-41AA-90AA-352B320603CA - d5594479e6976ff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hercircle.ApiManager.fetch&lt;A, B where A: Swift.Decodable, A: Swift.Encodable, B: Swift.Decodable, B: Swift.Encodable&gt;(endpoints: Hercircle.endPoint, endUerName: Swift.String, methodType: Hercircle.MethodType, contentType: Hercircle.ContentType, param: Swift.Optional&lt;B&gt;, completion: (Swift.Result&lt;A, Hercircle.ApiError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/Networking/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1477">
+               </Location>
+               <Location
+                  uuid = "B6B4C931-F39F-41AA-90AA-352B320603CA - d5594479e6976ff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hercircle.ApiManager.fetch&lt;A, B where A: Swift.Decodable, A: Swift.Encodable, B: Swift.Decodable, B: Swift.Encodable&gt;(endpoints: Hercircle.endPoint, endUerName: Swift.String, methodType: Hercircle.MethodType, contentType: Hercircle.ContentType, param: Swift.Optional&lt;B&gt;, completion: (Swift.Result&lt;A, Hercircle.ApiError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/Networking/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "2281">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "451322A3-F8E8-49F1-BF3E-9219310253FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B4F43B3-0769-4ED7-B797-D8B6A5B9DEED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/Networking/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "fetch(endpoints:endUerName:methodType:contentType:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A9708DB-371A-49BA-96B9-C10EF67E4BAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "304"
+            endingLineNumber = "304"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD9C1F95-C380-406C-885E-F8FD93ADD2D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "342"
+            endingLineNumber = "342"
+            landmarkName = "signInWithOtp(with:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD9C1F95-C380-406C-885E-F8FD93ADD2D4 - c986166d360245a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "337"
+                  endingLineNumber = "337"
+                  offsetFromSymbolStart = "157">
+               </Location>
+               <Location
+                  uuid = "DD9C1F95-C380-406C-885E-F8FD93ADD2D4 - 49d532400df3e48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignIn&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECBCC625-0218-4DBB-869B-1ACED14E01A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
+            landmarkName = "signInWithOtp(with:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECBCC625-0218-4DBB-869B-1ACED14E01A4 - c986166d360245a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "337"
+                  endingLineNumber = "337"
+                  offsetFromSymbolStart = "157">
+               </Location>
+               <Location
+                  uuid = "ECBCC625-0218-4DBB-869B-1ACED14E01A4 - 49d532400df3e48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignIn&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD3EF7AB-B964-4844-8037-798FF39EFF47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "signInWithOtp(with:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD3EF7AB-B964-4844-8037-798FF39EFF47 - 49d532400df3e48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignIn&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "FD3EF7AB-B964-4844-8037-798FF39EFF47 - 49d532400df3e48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignIn&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "263">
+               </Location>
+               <Location
+                  uuid = "FD3EF7AB-B964-4844-8037-798FF39EFF47 - 49d532400df3e48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignIn&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.signInWithOtp(with: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "763">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9F79296-4368-4391-A8E7-3BCF64BB2DB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
+            landmarkName = "signInWithOtp(with:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "726997A7-5EA1-4AE7-8414-7DB952EBBC50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "signInWithOtp(with:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40C51713-18BE-4375-8FEF-953332ED15ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40C51713-18BE-4375-8FEF-953332ED15ED - 1f5e72e4844de306"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "40C51713-18BE-4375-8FEF-953332ED15ED - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E14E9C3-FB9F-4645-A7B5-31CE3579CD12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98840FFC-77AD-44D6-904C-FA44A29C98F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "319"
+            endingLineNumber = "319"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D8B9E47-8076-4D49-95A3-5F481BEC0359"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "321"
+            endingLineNumber = "321"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0054B5BF-82C8-4468-A9FA-FE57F46F6552"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03BE8192-32C8-457D-9731-A86B11DBA94C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EEE5D06-51EE-45C3-8E2D-DF64B87C6BB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "322"
+            endingLineNumber = "322"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19FE2B4D-2C7B-49D4-B2BB-D26CB4ADEE3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "483832C4-2B65-4CB5-9744-A7019855C148"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "308"
+            endingLineNumber = "308"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "483832C4-2B65-4CB5-9744-A7019855C148 - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "483832C4-2B65-4CB5-9744-A7019855C148 - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  uuid = "483832C4-2B65-4CB5-9744-A7019855C148 - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "825">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7475336B-5EE0-4F49-89A6-59734CC5518E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7475336B-5EE0-4F49-89A6-59734CC5518E - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "7475336B-5EE0-4F49-89A6-59734CC5518E - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  uuid = "7475336B-5EE0-4F49-89A6-59734CC5518E - 1de188c041825730"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "825">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2E80A92-BBC7-44F5-AD4C-378243F56E4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBC7CACE-1418-4B01-95E0-6DB951D3E02D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EBC7CACE-1418-4B01-95E0-6DB951D3E02D - f6a046a372d3a9eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  uuid = "EBC7CACE-1418-4B01-95E0-6DB951D3E02D - 293e356e5b4731b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in closure #2 () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1264F9F7-7DAB-4D39-9450-815AA8FBE95A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7CFA62C-EC4A-4441-AA26-23729BBC3184"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hercircle/SignIn/Controllers/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "otpVerify(integer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7CFA62C-EC4A-4441-AA26-23729BBC3184 - 1de188c0418255dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "1326">
+               </Location>
+               <Location
+                  uuid = "E7CFA62C-EC4A-4441-AA26-23729BBC3184 - f6a046a372d3a9eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;Hercircle.SignInModel&gt;, Hercircle.ApiError&gt;) -&gt; () in Hercircle.LoginVC.otpVerify(integer: Swift.Int) -&gt; ()"
+                  moduleName = "Hercircle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivekp/Downloads/ril-ios/Hercircle/Hercircle/SignIn/Controllers/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

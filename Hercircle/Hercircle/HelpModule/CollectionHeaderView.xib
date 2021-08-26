@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="headerView" id="U6b-Vx-4bR" customClass="CollectionHeaderView" customModule="Hercircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-8d-GYP">
+                    <rect key="frame" x="0.0" y="170.5" width="320" height="1"/>
+                    <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pri-w9-bDh"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqv-J4-fka">
+                    <rect key="frame" x="0.0" y="104" width="320" height="1"/>
+                    <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="N3y-QV-OXv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Lb-L4-gmi">
+                    <rect key="frame" x="16" y="8" width="288" height="91"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderBack" highlightedImage="topHeaderBack" translatesAutoresizingMaskIntoConstraints="NO" id="Smj-Cv-Ipy">
+                            <rect key="frame" x="0.0" y="0.0" width="288" height="91"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="HELP IS AT HAND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBJ-xs-udG">
+                            <rect key="frame" x="8" y="9" width="139.5" height="20.5"/>
+                            <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All your queries from health to  finance will be handled by our expert panel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTQ-Ag-yEA">
+                            <rect key="frame" x="8" y="33.5" width="190" height="45.5"/>
+                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helpHand" translatesAutoresizingMaskIntoConstraints="NO" id="exk-v5-YYF">
+                            <rect key="frame" x="195" y="18" width="80" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="15o-5b-PPc"/>
+                                <constraint firstAttribute="width" constant="80" id="rIb-ux-Zg8"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Smj-Cv-Ipy" secondAttribute="bottom" id="8w8-QF-zNs"/>
+                        <constraint firstItem="eTQ-Ag-yEA" firstAttribute="top" secondItem="EBJ-xs-udG" secondAttribute="bottom" constant="4" id="ODH-g7-FJK"/>
+                        <constraint firstItem="eTQ-Ag-yEA" firstAttribute="leading" secondItem="EBJ-xs-udG" secondAttribute="leading" id="bff-Hd-U7n"/>
+                        <constraint firstItem="EBJ-xs-udG" firstAttribute="top" secondItem="0Lb-L4-gmi" secondAttribute="top" constant="9" id="d7M-8r-FKv"/>
+                        <constraint firstAttribute="trailing" secondItem="Smj-Cv-Ipy" secondAttribute="trailing" id="dfw-LX-Uqb"/>
+                        <constraint firstAttribute="trailing" secondItem="exk-v5-YYF" secondAttribute="trailing" constant="13" id="eqp-6r-AZC"/>
+                        <constraint firstItem="Smj-Cv-Ipy" firstAttribute="top" secondItem="0Lb-L4-gmi" secondAttribute="top" id="gWJ-wl-hGZ"/>
+                        <constraint firstAttribute="bottom" secondItem="eTQ-Ag-yEA" secondAttribute="bottom" constant="12" id="nug-5h-BgG"/>
+                        <constraint firstItem="exk-v5-YYF" firstAttribute="centerY" secondItem="0Lb-L4-gmi" secondAttribute="centerY" id="nyW-UG-OQ2"/>
+                        <constraint firstAttribute="trailing" secondItem="eTQ-Ag-yEA" secondAttribute="trailing" constant="90" id="qyF-Lm-A6U"/>
+                        <constraint firstItem="Smj-Cv-Ipy" firstAttribute="leading" secondItem="0Lb-L4-gmi" secondAttribute="leading" id="xmB-Ju-whN"/>
+                        <constraint firstItem="EBJ-xs-udG" firstAttribute="leading" secondItem="0Lb-L4-gmi" secondAttribute="leading" constant="8" id="xul-3M-UOG"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counselling Corner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0h-dK-mQg">
+                    <rect key="frame" x="16" y="110" width="288" height="19.5"/>
+                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don't have to suffer in silence, we will listen to you. Drop us a message . Help us help you." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2w-CT-UFL">
+                    <rect key="frame" x="16" y="131.5" width="288" height="29"/>
+                    <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask the Experts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glu-zY-htC">
+                    <rect key="frame" x="16" y="186" width="120" height="21"/>
+                    <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvp-xU-i7d">
+                    <rect key="frame" x="274" y="181.5" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="ZxX-cf-rCX"/>
+                        <constraint firstAttribute="height" constant="30" id="oW7-PT-A5X"/>
+                    </constraints>
+                    <state key="normal" image="List_UnSelected"/>
+                    <connections>
+                        <action selector="actionGridViewWithSender:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="i1w-07-CGf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FC-o2-RLs">
+                    <rect key="frame" x="226" y="181.5" width="30" height="30"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="THd-aL-3Ue"/>
+                        <constraint firstAttribute="height" constant="30" id="xkk-ak-AL4"/>
+                    </constraints>
+                    <state key="normal" image="grid_Selected"/>
+                    <connections>
+                        <action selector="actionTileViewWithSender:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="AsI-kH-Okk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="Xvp-xU-i7d" firstAttribute="leading" secondItem="4FC-o2-RLs" secondAttribute="trailing" constant="18" id="0y4-Bc-2qQ"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="V2w-CT-UFL" secondAttribute="trailing" constant="16" id="56k-ZW-fZn"/>
+                <constraint firstItem="V2w-CT-UFL" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="16" id="5Dx-55-Uhb"/>
+                <constraint firstItem="vqv-J4-fka" firstAttribute="top" secondItem="0Lb-L4-gmi" secondAttribute="bottom" constant="5" id="5Zx-rb-oeb"/>
+                <constraint firstItem="glu-zY-htC" firstAttribute="top" secondItem="cZD-8d-GYP" secondAttribute="bottom" constant="14.5" id="7fr-If-QhR"/>
+                <constraint firstItem="V2w-CT-UFL" firstAttribute="top" secondItem="W0h-dK-mQg" secondAttribute="bottom" constant="2" id="CJu-bG-Cfw"/>
+                <constraint firstItem="W0h-dK-mQg" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="16" id="EHS-uP-gAt"/>
+                <constraint firstItem="W0h-dK-mQg" firstAttribute="top" secondItem="vqv-J4-fka" secondAttribute="bottom" constant="5" id="Ect-CQ-2cx"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="W0h-dK-mQg" secondAttribute="trailing" constant="16" id="JsH-bT-tZr"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="vqv-J4-fka" secondAttribute="trailing" id="NES-VN-riC"/>
+                <constraint firstItem="cZD-8d-GYP" firstAttribute="top" secondItem="V2w-CT-UFL" secondAttribute="bottom" constant="10" id="OXb-SY-dTI"/>
+                <constraint firstItem="4FC-o2-RLs" firstAttribute="centerY" secondItem="glu-zY-htC" secondAttribute="centerY" id="PAu-k0-cFF"/>
+                <constraint firstItem="Xvp-xU-i7d" firstAttribute="centerY" secondItem="glu-zY-htC" secondAttribute="centerY" id="RRP-Vh-Ugz"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="0Lb-L4-gmi" secondAttribute="trailing" constant="16" id="eKK-gg-qqd"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="glu-zY-htC" secondAttribute="bottom" constant="15" id="esl-Ot-VtU"/>
+                <constraint firstItem="0Lb-L4-gmi" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="8" id="n8s-5k-Si3"/>
+                <constraint firstItem="vqv-J4-fka" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="oEy-fw-KZX"/>
+                <constraint firstItem="glu-zY-htC" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="16" id="pzV-de-4Dn"/>
+                <constraint firstItem="0Lb-L4-gmi" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="16" id="q7s-Ct-hER"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="Xvp-xU-i7d" secondAttribute="trailing" constant="16" id="rga-Ok-jw5"/>
+                <constraint firstItem="cZD-8d-GYP" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="vG1-Gf-tHN"/>
+                <constraint firstAttribute="trailing" secondItem="cZD-8d-GYP" secondAttribute="trailing" id="xaS-Yq-i1W"/>
+            </constraints>
+            <connections>
+                <outlet property="btnList" destination="Xvp-xU-i7d" id="zkU-C9-dnp"/>
+                <outlet property="btnTile" destination="4FC-o2-RLs" id="cod-Ba-ahW"/>
+            </connections>
+            <point key="canvasLocation" x="27.536231884057973" y="103.45982142857143"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="List_UnSelected" width="17" height="14"/>
+        <image name="grid_Selected" width="17" height="17"/>
+        <image name="helpHand" width="117.5" height="92"/>
+        <image name="topHeaderBack" width="347" height="91"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

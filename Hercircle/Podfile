@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Hercircle' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Hercircle
+
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+pod 'GoogleSignIn'
+pod 'TwitterKit'
+pod 'TTGTagCollectionView'
+pod 'IQKeyboardManagerSwift'
+pod 'JVFloatLabeledTextField'
+pod 'SwiftyJSON'
+pod 'SwiftMessages'
+pod 'DialCountries'
+pod 'DropDown'
+pod 'PINRemoteImage'
+pod 'SDWebImage', '~> 4.0'
+pod 'Segmentio'
+pod 'FSCalendar'
+pod 'UIViewUseful'
+pod 'FSPagerView'
+pod 'Charts'
+
+
+  target 'HercircleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HercircleUITests' do
+    # Pods for testing
+  end
+
+end

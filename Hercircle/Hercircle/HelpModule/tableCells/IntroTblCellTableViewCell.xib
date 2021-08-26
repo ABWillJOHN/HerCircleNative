@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IntroCell" rowHeight="197" id="KGk-i7-Jjw" customClass="IntroTblCellTableViewCell" customModule="Hercircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7UE-ra-kPR">
+                        <rect key="frame" x="19" y="10" width="50" height="50"/>
+                        <color key="backgroundColor" red="0.1333333333" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Kg2-bZ-ExI"/>
+                            <constraint firstAttribute="height" constant="50" id="fgJ-PA-auA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Sonal Kohli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dc5-ea-hat">
+                        <rect key="frame" x="85" y="10" width="219" height="20"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consultant Dermatologist  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8n-H2-Rrz">
+                        <rect key="frame" x="85" y="32" width="219" height="16"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="deB-La-TKh">
+                        <rect key="frame" x="19" y="84" width="282" height="69"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERIENCE 10 Years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hh-ma-SnY">
+                                <rect key="frame" x="8" y="8" width="266" height="14.5"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5A-eD-QtW">
+                                <rect key="frame" x="8" y="25" width="266" height="36"/>
+                                <string key="text">SPECIALISES IN :- Anti-Ageing procedures (Botox, fillers, thread contouring, vampire facial), Trichology (hair mesotherapy and PRP), Allergy</string>
+                                <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5hh-ma-SnY" secondAttribute="trailing" constant="8" id="mxM-WP-its"/>
+                            <constraint firstAttribute="trailing" secondItem="i5A-eD-QtW" secondAttribute="trailing" constant="8" id="ncv-PV-yUj"/>
+                            <constraint firstItem="i5A-eD-QtW" firstAttribute="top" secondItem="5hh-ma-SnY" secondAttribute="bottom" constant="2.5" id="u6h-GB-kxD"/>
+                            <constraint firstItem="5hh-ma-SnY" firstAttribute="leading" secondItem="deB-La-TKh" secondAttribute="leading" constant="8" id="uAg-Sd-OXE"/>
+                            <constraint firstAttribute="bottom" secondItem="i5A-eD-QtW" secondAttribute="bottom" constant="8" id="wtT-n9-jbt"/>
+                            <constraint firstItem="i5A-eD-QtW" firstAttribute="leading" secondItem="deB-La-TKh" secondAttribute="leading" constant="8" id="yEj-4h-3P2"/>
+                            <constraint firstItem="5hh-ma-SnY" firstAttribute="top" secondItem="deB-La-TKh" secondAttribute="top" constant="8" id="zcq-uH-ZYn"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Dc5-ea-hat" firstAttribute="leading" secondItem="7UE-ra-kPR" secondAttribute="trailing" constant="16" id="3hf-J1-ze1"/>
+                    <constraint firstAttribute="trailing" secondItem="deB-La-TKh" secondAttribute="trailing" constant="19" id="4CG-7o-Ryv"/>
+                    <constraint firstAttribute="trailing" secondItem="Dc5-ea-hat" secondAttribute="trailing" constant="16" id="Bgq-U4-kgq"/>
+                    <constraint firstItem="Dc5-ea-hat" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="C7G-UE-4vS"/>
+                    <constraint firstItem="F8n-H2-Rrz" firstAttribute="trailing" secondItem="Dc5-ea-hat" secondAttribute="trailing" id="Heh-iQ-YgV"/>
+                    <constraint firstAttribute="bottom" secondItem="deB-La-TKh" secondAttribute="bottom" constant="10" id="Ibw-XD-mls"/>
+                    <constraint firstItem="deB-La-TKh" firstAttribute="top" secondItem="7UE-ra-kPR" secondAttribute="bottom" constant="24" id="VAS-mR-VLx"/>
+                    <constraint firstItem="7UE-ra-kPR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="19" id="eta-ap-hdv"/>
+                    <constraint firstItem="deB-La-TKh" firstAttribute="leading" secondItem="7UE-ra-kPR" secondAttribute="leading" id="nIE-AQ-1cJ"/>
+                    <constraint firstItem="7UE-ra-kPR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="nLn-Nb-tfo"/>
+                    <constraint firstItem="F8n-H2-Rrz" firstAttribute="top" secondItem="Dc5-ea-hat" secondAttribute="bottom" constant="2" id="neo-u3-Heh"/>
+                    <constraint firstItem="F8n-H2-Rrz" firstAttribute="leading" secondItem="Dc5-ea-hat" secondAttribute="leading" id="qms-cz-egQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblExperience" destination="5hh-ma-SnY" id="Pw0-la-XxN"/>
+                <outlet property="lblNm" destination="Dc5-ea-hat" id="Qr6-PS-n0s"/>
+                <outlet property="lblProfession" destination="F8n-H2-Rrz" id="xAM-Fr-1OS"/>
+                <outlet property="lblSpecialities" destination="i5A-eD-QtW" id="x1D-ER-8vt"/>
+                <outlet property="view" destination="deB-La-TKh" id="Uwc-8m-gds"/>
+            </connections>
+            <point key="canvasLocation" x="37.681159420289859" y="94.084821428571431"/>
+        </tableViewCell>
+    </objects>
+</document>

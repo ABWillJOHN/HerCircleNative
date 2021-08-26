@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityVC" customModule="Hercircle" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewCollection" destination="XYx-Ua-1ac" id="LSB-yY-L62"/>
+                <outlet property="viewTop" destination="sSM-6K-Hc7" id="4X8-2q-mn8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XYx-Ua-1ac">
+                    <rect key="frame" x="0.0" y="154" width="414" height="708"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-6K-Hc7">
+                    <rect key="frame" x="0.0" y="44" width="414" height="110"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="RZl-VI-xG4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XYx-Ua-1ac" secondAttribute="bottom" id="1hX-k6-D62"/>
+                <constraint firstItem="sSM-6K-Hc7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="But-7e-L7f"/>
+                <constraint firstItem="XYx-Ua-1ac" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="TCT-DM-vp5"/>
+                <constraint firstItem="XYx-Ua-1ac" firstAttribute="top" secondItem="sSM-6K-Hc7" secondAttribute="bottom" id="cAe-J3-ffb"/>
+                <constraint firstItem="sSM-6K-Hc7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gL1-kl-jpn"/>
+                <constraint firstItem="sSM-6K-Hc7" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="jS3-P1-8GC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XYx-Ua-1ac" secondAttribute="trailing" id="zmI-Sp-LNv"/>
+            </constraints>
+            <point key="canvasLocation" x="63.768115942028992" y="45.535714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

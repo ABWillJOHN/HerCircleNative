@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeTBVFooter" customModule="Hercircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="145"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cjh-Ss-7AI">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="145"/>
+                    <subviews>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdm-pf-E8H">
+                            <rect key="frame" x="187" y="97" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="zdm-pf-E8H" secondAttribute="height" multiplier="1:1" id="iy7-MZ-WPT"/>
+                                <constraint firstAttribute="height" constant="40" id="oo8-9M-Ddw"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="systemIndigoColor"/>
+                            <state key="normal">
+                                <imageReference key="image" image="chevron.down" catalog="system" symbolScale="large"/>
+                            </state>
+                            <connections>
+                                <action selector="btnDownAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="swP-NO-yB6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I8-bg-0AG">
+                            <rect key="frame" x="339" y="105" width="55" height="30"/>
+                            <state key="normal" title="View All">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="btnViewAllAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="W9O-YC-hob"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="zdm-pf-E8H" secondAttribute="bottom" constant="8" id="11y-00-Fu2"/>
+                        <constraint firstAttribute="trailing" secondItem="0I8-bg-0AG" secondAttribute="trailing" constant="20" id="8fZ-jT-RVN"/>
+                        <constraint firstAttribute="bottom" secondItem="0I8-bg-0AG" secondAttribute="bottom" constant="10" id="I0b-4v-vBS"/>
+                        <constraint firstItem="zdm-pf-E8H" firstAttribute="centerX" secondItem="Cjh-Ss-7AI" secondAttribute="centerX" id="Obc-Wf-3w8"/>
+                        <constraint firstItem="zdm-pf-E8H" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Cjh-Ss-7AI" secondAttribute="top" constant="8" id="hog-wQ-9Ed"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Cjh-Ss-7AI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3eR-jv-NKn"/>
+                <constraint firstItem="Cjh-Ss-7AI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XsF-Vi-jOv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Cjh-Ss-7AI" secondAttribute="trailing" id="lRK-pb-JLw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Cjh-Ss-7AI" secondAttribute="bottom" id="nwC-DM-l9v"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-149.66517857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

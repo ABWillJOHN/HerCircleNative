@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tileCell" id="gTV-IL-0wX" customClass="TileCellCollectionViewCell" customModule="Hercircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="176"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFz-eP-YT7">
+                        <rect key="frame" x="5" y="5" width="172" height="166"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c7R-2X-3oy">
+                                <rect key="frame" x="41" y="8" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.1333333333" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="4A7-Aj-Al7"/>
+                                    <constraint firstAttribute="width" constant="90" id="yZs-TJ-SGQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="45"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFZ-x3-iUf">
+                                <rect key="frame" x="111" y="78" width="30" height="30"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="3gE-LT-W2F"/>
+                                    <constraint firstAttribute="height" constant="30" id="Kap-c2-ixb"/>
+                                </constraints>
+                                <state key="normal" image="helpShare"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionAskExpertWithSender:" destination="gTV-IL-0wX" eventType="touchUpInside" id="fpm-U5-JYf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Sonali Kohli" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg3-7c-6Zw">
+                                <rect key="frame" x="8" y="113" width="156" height="18"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consultant Dermatologist  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrE-9S-PBB">
+                                <rect key="frame" x="8" y="139" width="156" height="14.5"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hrE-9S-PBB" firstAttribute="leading" secondItem="fFz-eP-YT7" secondAttribute="leading" constant="8" id="0qR-gY-Kf0"/>
+                            <constraint firstAttribute="trailing" secondItem="hrE-9S-PBB" secondAttribute="trailing" constant="8" id="Ev8-rn-Xii"/>
+                            <constraint firstItem="dg3-7c-6Zw" firstAttribute="leading" secondItem="fFz-eP-YT7" secondAttribute="leading" constant="8" id="IwI-hY-yph"/>
+                            <constraint firstItem="hrE-9S-PBB" firstAttribute="top" secondItem="dg3-7c-6Zw" secondAttribute="bottom" constant="8" id="OxF-2v-okH"/>
+                            <constraint firstItem="fFZ-x3-iUf" firstAttribute="trailing" secondItem="c7R-2X-3oy" secondAttribute="trailing" constant="10" id="Qgo-4A-NK2"/>
+                            <constraint firstAttribute="bottom" secondItem="hrE-9S-PBB" secondAttribute="bottom" constant="12.5" id="Qrp-bg-qHb"/>
+                            <constraint firstItem="dg3-7c-6Zw" firstAttribute="top" secondItem="fFZ-x3-iUf" secondAttribute="bottom" constant="5" id="bsa-HY-f9W"/>
+                            <constraint firstAttribute="trailing" secondItem="dg3-7c-6Zw" secondAttribute="trailing" constant="8" id="duz-il-YvD"/>
+                            <constraint firstItem="c7R-2X-3oy" firstAttribute="centerX" secondItem="fFz-eP-YT7" secondAttribute="centerX" id="huo-QV-fvh"/>
+                            <constraint firstItem="c7R-2X-3oy" firstAttribute="top" secondItem="fFz-eP-YT7" secondAttribute="top" constant="8" id="ofQ-pu-m75"/>
+                            <constraint firstItem="fFZ-x3-iUf" firstAttribute="bottom" secondItem="c7R-2X-3oy" secondAttribute="bottom" constant="10" id="vXy-oX-O0M"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="fFz-eP-YT7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="J0M-ZL-FhY"/>
+                <constraint firstItem="fFz-eP-YT7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Vw4-Em-Jci"/>
+                <constraint firstAttribute="bottom" secondItem="fFz-eP-YT7" secondAttribute="bottom" constant="5" id="h4Q-AK-meP"/>
+                <constraint firstAttribute="trailing" secondItem="fFz-eP-YT7" secondAttribute="trailing" constant="5" id="uzR-rr-GXW"/>
+            </constraints>
+            <size key="customSize" width="182" height="176"/>
+            <connections>
+                <outlet property="btnDisc" destination="fFZ-x3-iUf" id="Cif-Ry-BsH"/>
+                <outlet property="img" destination="c7R-2X-3oy" id="jHP-Lh-xkc"/>
+                <outlet property="lblDisc" destination="hrE-9S-PBB" id="hKd-Ol-RkU"/>
+                <outlet property="lblName" destination="dg3-7c-6Zw" id="B16-LT-zOV"/>
+                <outlet property="viewBack" destination="fFz-eP-YT7" id="x5b-Pf-nUY"/>
+            </connections>
+            <point key="canvasLocation" x="233.33333333333334" y="85.044642857142847"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="helpShare" width="19" height="19"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

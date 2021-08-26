@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="crs-jn-Ltl" customClass="CommonDatePickerView" customModule="Hercircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xzz-t8-sWD">
+                    <rect key="frame" x="0.0" y="622" width="414" height="240"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="CZ6-8c-v3W">
+                            <rect key="frame" x="0.0" y="40" width="414" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="7JO-Ja-OsO"/>
+                            </constraints>
+                        </datePicker>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="44y-mU-e0o">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5R-zv-L6q">
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="40"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwd-aq-u4f">
+                                    <rect key="frame" x="207" y="0.0" width="207" height="40"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Done">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="IrR-Px-TzM"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="CZ6-8c-v3W" firstAttribute="leading" secondItem="Xzz-t8-sWD" secondAttribute="leading" id="3xG-Kf-pqh"/>
+                        <constraint firstItem="44y-mU-e0o" firstAttribute="leading" secondItem="Xzz-t8-sWD" secondAttribute="leading" id="HUR-zC-Y7I"/>
+                        <constraint firstAttribute="trailing" secondItem="CZ6-8c-v3W" secondAttribute="trailing" id="PxN-i7-8Np"/>
+                        <constraint firstItem="CZ6-8c-v3W" firstAttribute="top" secondItem="44y-mU-e0o" secondAttribute="bottom" id="QBx-P4-whz"/>
+                        <constraint firstAttribute="trailing" secondItem="44y-mU-e0o" secondAttribute="trailing" id="blv-7I-k2o"/>
+                        <constraint firstAttribute="height" constant="240" id="cf9-Rv-meo"/>
+                        <constraint firstAttribute="bottom" secondItem="CZ6-8c-v3W" secondAttribute="bottom" id="ndN-T1-Nrb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="2Bw-jB-si6"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Xzz-t8-sWD" firstAttribute="leading" secondItem="2Bw-jB-si6" secondAttribute="leading" id="3Zf-Vg-Sd5"/>
+                <constraint firstItem="2Bw-jB-si6" firstAttribute="bottom" secondItem="Xzz-t8-sWD" secondAttribute="bottom" id="QPp-s0-7cH"/>
+                <constraint firstItem="2Bw-jB-si6" firstAttribute="trailing" secondItem="Xzz-t8-sWD" secondAttribute="trailing" id="fU0-Pt-qlt"/>
+            </constraints>
+            <connections>
+                <outlet property="cancelBtn" destination="H5R-zv-L6q" id="oqq-Ld-66N"/>
+                <outlet property="doneBtn" destination="Mwd-aq-u4f" id="3Pu-eS-Fwv"/>
+                <outlet property="mydatepicker" destination="CZ6-8c-v3W" id="0w7-MG-L7M"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="131.91964285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

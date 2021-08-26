@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TitleLogoView" customModule="Hercircle" customModuleProvider="target">
+            <connections>
+                <outlet property="connectButton" destination="YuF-Uc-XmL" id="hmF-pM-jCV"/>
+                <outlet property="engageButton" destination="IPG-xw-m38" id="Uri-HO-low"/>
+                <outlet property="goalsButton" destination="od1-U2-PEE" id="Sil-Gm-E9C"/>
+                <outlet property="growButton" destination="3Ju-ga-cNm" id="onR-ao-PEh"/>
+                <outlet property="helpButton" destination="s0D-3K-tJs" id="zUJ-s1-Fsp"/>
+                <outlet property="logoView" destination="gpp-dM-e47" id="5DD-Po-N82"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XFY-j0-ewH">
+                    <rect key="frame" x="0.0" y="0.0" width="463" height="200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89P-b3-fip">
+                            <rect key="frame" x="0.0" y="125" width="463" height="75"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IFL-qF-9wd">
+                                    <rect key="frame" x="15" y="21.5" width="433" height="32"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuF-Uc-XmL" customClass="StackButton" customModule="Hercircle" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="100.5" height="32"/>
+                                            <color key="backgroundColor" red="0.56470588239999997" green="0.45882352939999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="32" id="wnZ-b8-FaL"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                                            <state key="normal" title="connect">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPG-xw-m38" customClass="StackButton" customModule="Hercircle" customModuleProvider="target">
+                                            <rect key="frame" x="108.5" y="0.0" width="89" height="32"/>
+                                            <color key="backgroundColor" red="0.2274509804" green="0.36862745099999999" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                                            <state key="normal" title="engage">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ju-ga-cNm" customClass="StackButton" customModule="Hercircle" customModuleProvider="target">
+                                            <rect key="frame" x="205.5" y="0.0" width="63" height="32"/>
+                                            <color key="backgroundColor" red="0.1529411765" green="0.61176470589999998" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                                            <state key="normal" title="grow">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od1-U2-PEE" customClass="StackButton" customModule="Hercircle" customModuleProvider="target">
+                                            <rect key="frame" x="276.5" y="0.0" width="65.5" height="32"/>
+                                            <color key="backgroundColor" red="0.7843137255" green="0.42352941179999998" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                                            <state key="normal" title="goals">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0D-3K-tJs" customClass="StackButton" customModule="Hercircle" customModuleProvider="target">
+                                            <rect key="frame" x="350" y="0.0" width="83" height="32"/>
+                                            <color key="backgroundColor" red="0.0078431372550000003" green="0.70980392160000005" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                                            <state key="normal" title="help">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="IFL-qF-9wd" firstAttribute="leading" secondItem="89P-b3-fip" secondAttribute="leading" constant="15" id="Eut-T7-21x"/>
+                                <constraint firstItem="IFL-qF-9wd" firstAttribute="centerY" secondItem="89P-b3-fip" secondAttribute="centerY" id="YK2-Du-Opi"/>
+                                <constraint firstAttribute="trailing" secondItem="IFL-qF-9wd" secondAttribute="trailing" constant="15" id="zQf-El-y8E"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpp-dM-e47">
+                            <rect key="frame" x="0.0" y="50" width="463" height="75"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpL-DM-jzk">
+                                    <rect key="frame" x="16" y="22.5" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="fE6-K3-AIF"/>
+                                        <constraint firstAttribute="width" constant="30" id="qgT-PH-kC0"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="0ll-Iu-fMC">
+                                    <rect key="frame" x="366" y="22.5" width="81" height="30"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8d-CC-7LI">
+                                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="Pfp-v8-ByT"/>
+                                                <constraint firstAttribute="height" constant="30" id="wcu-hi-5HA"/>
+                                            </constraints>
+                                            <state key="normal" title="Button" image="ph_magnifying-glass-bold"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-E2-VU3">
+                                            <rect key="frame" x="51" y="0.0" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="4Ga-2M-DLX"/>
+                                                <constraint firstAttribute="height" constant="30" id="A7A-y5-3np"/>
+                                            </constraints>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="o9N-1X-bl7">
+                                    <rect key="frame" x="62" y="8" width="107" height="59"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="o9N-1X-bl7" secondAttribute="height" multiplier="89:49" id="6BU-kp-cr6"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="o9N-1X-bl7" firstAttribute="top" secondItem="gpp-dM-e47" secondAttribute="top" constant="8" id="D8O-FH-AxT"/>
+                                <constraint firstItem="CpL-DM-jzk" firstAttribute="leading" secondItem="gpp-dM-e47" secondAttribute="leading" constant="16" id="Dvx-8q-Uho"/>
+                                <constraint firstAttribute="bottom" secondItem="o9N-1X-bl7" secondAttribute="bottom" constant="8" id="FNi-QW-fLK"/>
+                                <constraint firstItem="CpL-DM-jzk" firstAttribute="centerY" secondItem="gpp-dM-e47" secondAttribute="centerY" id="Ki5-VG-HX0"/>
+                                <constraint firstItem="0ll-Iu-fMC" firstAttribute="centerY" secondItem="gpp-dM-e47" secondAttribute="centerY" id="PI7-6P-Zpx"/>
+                                <constraint firstAttribute="height" constant="75" id="qDO-DI-mCg"/>
+                                <constraint firstAttribute="trailing" secondItem="0ll-Iu-fMC" secondAttribute="trailing" constant="16" id="qc5-e3-QJk"/>
+                                <constraint firstItem="o9N-1X-bl7" firstAttribute="leading" secondItem="CpL-DM-jzk" secondAttribute="trailing" constant="16" id="vAv-PI-2Yn"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9K-BG-NvA">
+                            <rect key="frame" x="0.0" y="0.0" width="463" height="50"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="3LW-3N-JIe"/>
+                        <constraint firstItem="A9K-BG-NvA" firstAttribute="leading" secondItem="XFY-j0-ewH" secondAttribute="leading" id="9vI-ON-uMb"/>
+                        <constraint firstAttribute="trailing" secondItem="A9K-BG-NvA" secondAttribute="trailing" id="9vL-jF-Crp"/>
+                        <constraint firstItem="A9K-BG-NvA" firstAttribute="top" secondItem="XFY-j0-ewH" secondAttribute="top" id="C1f-bq-OBb"/>
+                        <constraint firstItem="gpp-dM-e47" firstAttribute="top" secondItem="A9K-BG-NvA" secondAttribute="bottom" id="Cvc-bk-9RM"/>
+                        <constraint firstItem="gpp-dM-e47" firstAttribute="leading" secondItem="XFY-j0-ewH" secondAttribute="leading" id="LpX-J4-7wB"/>
+                        <constraint firstAttribute="trailing" secondItem="89P-b3-fip" secondAttribute="trailing" id="WcE-0r-Jb8"/>
+                        <constraint firstAttribute="trailing" secondItem="gpp-dM-e47" secondAttribute="trailing" id="b3T-Uq-o64"/>
+                        <constraint firstItem="89P-b3-fip" firstAttribute="leading" secondItem="XFY-j0-ewH" secondAttribute="leading" id="flZ-lR-b6t"/>
+                        <constraint firstItem="89P-b3-fip" firstAttribute="top" secondItem="gpp-dM-e47" secondAttribute="bottom" id="m87-hh-Vxb"/>
+                        <constraint firstAttribute="bottom" secondItem="89P-b3-fip" secondAttribute="bottom" id="pqW-da-twD"/>
+                        <constraint firstItem="89P-b3-fip" firstAttribute="height" secondItem="gpp-dM-e47" secondAttribute="height" id="vp8-VO-RqO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XFY-j0-ewH" secondAttribute="trailing" id="20q-IL-He0"/>
+                <constraint firstItem="XFY-j0-ewH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Cs-8C-3Ko"/>
+                <constraint firstItem="XFY-j0-ewH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z80-Q6-cbq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-119.56521739130436" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="125.5" height="53"/>
+        <image name="ph_magnifying-glass-bold" width="62" height="62"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

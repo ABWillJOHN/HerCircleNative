@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="InsightTblCell" rowHeight="308" id="683-2K-dSA" customClass="InsightTblCell" customModule="Hercircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="308"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="683-2K-dSA" id="3QB-vD-kKu">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="308"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FitnessInsight" translatesAutoresizingMaskIntoConstraints="NO" id="Vpf-0O-NVF">
+                        <rect key="frame" x="16" y="8" width="343" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="7tn-wv-09f"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FINANCE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhl-xq-Dgp">
+                        <rect key="frame" x="18" y="171" width="51" height="14"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="12"/>
+                        <color key="textColor" red="0.1647058824" green="0.45098039220000002" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money Matters: How To Manage Finances In Your 40s" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHH-K5-cbe">
+                        <rect key="frame" x="18" y="188" width="315" height="38.5"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nikshubha Garg | Jan 25, 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2o-gS-UIZ">
+                        <rect key="frame" x="18" y="276.5" width="166.5" height="14"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="12"/>
+                        <color key="textColor" red="0.4941176471" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have made your mistakes and learnt from them. Here’s how you can plan your money in 40s." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kg5-aD-bP2">
+                        <rect key="frame" x="18" y="234.5" width="339" height="34"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Vpf-0O-NVF" firstAttribute="top" secondItem="3QB-vD-kKu" secondAttribute="top" constant="8" id="5nM-bF-ZSs"/>
+                    <constraint firstItem="hhl-xq-Dgp" firstAttribute="top" secondItem="Vpf-0O-NVF" secondAttribute="bottom" constant="13" id="64y-vX-dlD"/>
+                    <constraint firstItem="ZHH-K5-cbe" firstAttribute="top" secondItem="hhl-xq-Dgp" secondAttribute="bottom" constant="3" id="BWG-ev-v1v"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hhl-xq-Dgp" secondAttribute="trailing" constant="16" id="GV7-5R-3mJ"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="u2o-gS-UIZ" secondAttribute="bottom" constant="16" id="JTx-nk-S0c"/>
+                    <constraint firstAttribute="trailing" secondItem="Vpf-0O-NVF" secondAttribute="trailing" constant="16" id="Kgz-rB-93r"/>
+                    <constraint firstItem="u2o-gS-UIZ" firstAttribute="leading" secondItem="ZHH-K5-cbe" secondAttribute="leading" id="L4R-8v-rG4"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Kg5-aD-bP2" secondAttribute="trailing" constant="18" id="LBT-J0-0kT"/>
+                    <constraint firstItem="u2o-gS-UIZ" firstAttribute="top" secondItem="Kg5-aD-bP2" secondAttribute="bottom" constant="8" id="LQo-aG-QMp"/>
+                    <constraint firstItem="Kg5-aD-bP2" firstAttribute="leading" secondItem="ZHH-K5-cbe" secondAttribute="leading" id="MT8-YI-53f"/>
+                    <constraint firstItem="Vpf-0O-NVF" firstAttribute="leading" secondItem="3QB-vD-kKu" secondAttribute="leading" constant="16" id="WQ6-9y-M6l"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZHH-K5-cbe" secondAttribute="trailing" constant="42" id="XPx-4U-RyS"/>
+                    <constraint firstItem="ZHH-K5-cbe" firstAttribute="leading" secondItem="hhl-xq-Dgp" secondAttribute="leading" id="bnG-jy-soF"/>
+                    <constraint firstItem="hhl-xq-Dgp" firstAttribute="leading" secondItem="3QB-vD-kKu" secondAttribute="leading" constant="18" id="msD-kp-C9a"/>
+                    <constraint firstItem="u2o-gS-UIZ" firstAttribute="leading" secondItem="Kg5-aD-bP2" secondAttribute="leading" id="oYE-Jg-bYe"/>
+                    <constraint firstItem="Kg5-aD-bP2" firstAttribute="top" secondItem="ZHH-K5-cbe" secondAttribute="bottom" constant="8" id="yST-fP-h0G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="img" destination="Vpf-0O-NVF" id="7fU-s6-ZxQ"/>
+                <outlet property="lblAuthorAndDate" destination="u2o-gS-UIZ" id="igu-w4-bCJ"/>
+                <outlet property="lblCategory" destination="hhl-xq-Dgp" id="Ah2-iz-dqN"/>
+                <outlet property="lblDetail" destination="Kg5-aD-bP2" id="ooY-yM-633"/>
+                <outlet property="lblTitle" destination="ZHH-K5-cbe" id="3ff-TH-VW5"/>
+            </connections>
+            <point key="canvasLocation" x="-114" y="53"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FitnessInsight" width="924" height="402"/>
+    </resources>
+</document>
